@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-TRANSFER SYSTEM
+## TRANSFER SYSTEM
 
 For it to work you must either upload transfer.sql into your database or migrate the database through the project.
 
