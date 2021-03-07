@@ -19,10 +19,7 @@ Route::get('/history', 'TransferController@getUserHistory')->name('history');
 
 Route::post('/createTransfer', 'TransferController@createTransfer')->name('createTransfer');
 
-
 Route::get('/contact', 'ContactController@contact')->name('contact');
-
-Route::get('/gallery', 'InstagramController@gallery')->name('gallery');
 
 Route::get('/register', 'RegistrationController@create') ->name('register');
 Route::post('register', 'RegistrationController@store')->name('storeRegister');
